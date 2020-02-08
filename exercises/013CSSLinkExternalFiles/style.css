@@ -1,12 +1,12 @@
-header{
-    text-align: center;
+header {
+  text-align: center;
 }
-a{
-    color: red;
+a {
+  color: red;
 }
-div{
-    font-size: 18px;
+div {
+  font-size: 18px;
 }
-.active{
-    color: #00aced;
+.active {
+  color: #00aced;
 }

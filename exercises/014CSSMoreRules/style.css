@@ -1,22 +1,22 @@
-.one{
-    padding: 20px;
-    background-color: red;
-    display: inline-block;
-    border: 1px solid orange;
-    margin-right: 20px;
+.one {
+  padding: 20px;
+  background-color: red;
+  display: inline-block;
+  border: 1px solid orange;
+  margin-right: 20px;
 }
-.two{
-    padding-left: 10px;
-    padding-right: 30px;
-    display: inline-block;
-    background-color: blue;
-    border: 4px solid green;
+.two {
+  padding-left: 10px;
+  padding-right: 30px;
+  display: inline-block;
+  background-color: blue;
+  border: 4px solid green;
 }
-.three{
-    height: 50px;
-    width: 50px;
-    background-color: #00aced;
+.three {
+  height: 50px;
+  width: 50px;
+  background-color: #00aced;
 }
-.four{
-    display: none;
+.four {
+  display: none;
 }

@@ -1,50 +1,52 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
+body {
+  font-family: "Courier New", Courier, monospace;
 }
-header{
-    text-align: center;
+header {
+  text-align: center;
 }
-nav{
-    font-size: 40px;
-    display: block;
+nav {
+  font-size: 40px;
+  display: block;
 }
-li{
-    display: inline;
+li {
+  display: inline;
 }
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 .active {
-    font-size: 50px;
-    color: goldenrod;
+  font-size: 50px;
+  color: goldenrod;
 }
-a:hover{
-    color: goldenrod;
+a:hover {
+  color: goldenrod;
 }
-button:hover{
-    background-color: #00aced;
+button:hover {
+  background-color: #00aced;
 }
-input,textarea,button{
-    border-radius: 10px;
-    }
-input{
-    height: 30px;
-    width: 200px;
+input,
+textarea,
+button {
+  border-radius: 10px;
 }
-textarea{
-    height: 150px;
-    width: 300px;
+input {
+  height: 30px;
+  width: 200px;
 }
-img{
-    border-radius: 100px;
-    height: 40vh;
+textarea {
+  height: 150px;
+  width: 300px;
 }
-.contact{
-    text-align: center;
-    font-size: 30px;
-    padding: 50px;
-    margin: 50px;
+img {
+  border-radius: 100px;
+  height: 40vh;
+}
+.contact {
+  text-align: center;
+  font-size: 30px;
+  padding: 50px;
+  margin: 50px;
 }
