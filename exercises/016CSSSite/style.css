@@ -1,0 +1,50 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    text-align: center;
+}
+nav{
+    font-size: 40px;
+    display: block;
+}
+li{
+    display: inline;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.active {
+    font-size: 50px;
+    color: goldenrod;
+}
+a:hover{
+    color: goldenrod;
+}
+button:hover{
+    background-color: #00aced;
+}
+input,textarea,button{
+    border-radius: 10px;
+    }
+input{
+    height: 30px;
+    width: 200px;
+}
+textarea{
+    height: 150px;
+    width: 300px;
+}
+img{
+    border-radius: 100px;
+    height: 40vh;
+}
+.contact{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+    margin: 50px;
+}

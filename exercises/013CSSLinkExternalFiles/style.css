@@ -1,0 +1,12 @@
+header{
+    text-align: center;
+}
+a{
+    color: red;
+}
+div{
+    font-size: 18px;
+}
+.active{
+    color: #00aced;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create User</title>
+    </head>
+    <body>
+        <h1>Create User</h1>
+        <hr>
+        <form action="create-user.html" method="GET">
+            <label for="">Email:<input type="email" name="email" id="" required placeholder="email"></label>
+            <br>
+            <label for="">Username:<input type="text" name="username" id="" required placeholder="username" size="30" maxlength="12"></label>
+            <br>
+            <label for="">Password:<input type="password" name="password" id="" required placeholder="password" size="30" maxlength="8"></label>
+            <br>
+            <label for="">Bio:</label>
+            <br>
+            <textarea name="bio" id="" cols="30" rows="10" placeholder="give a brief description of the user"></textarea>
+            <fieldset>
+                <legend>Interests</legend>
+                <label for="">Select your Favourite Superhero</label>
+                <input type="radio" name="" id="">Superman
+                <input type="radio" name="" id="">Batman
+                <input type="radio" name="" id="">Wonder Woman
+                <input type="radio" name="" id="">Flash
+                <input type="radio" name="" id="">Thor
+                <input type="radio" name="" id="">Hulk
+                <br>
+                <label for="">Select your Favourite Video Game</label>
+                <input type="checkbox" name="" id="" checked>FIFA
+                <input type="checkbox" name="" id="">NHL
+                <input type="checkbox" name="" id="">Resident Evil
+                <input type="checkbox" name="" id="">Uncharted
+            </fieldset>
+            <button>Create User</button>
+
+        </form>
+    </body>
+</html>
