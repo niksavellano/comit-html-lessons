@@ -1,31 +1,72 @@
-body {
-  font-family: "Courier New", Courier, monospace;
+html {
+  box-sizing: border-box;
 }
-header {
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-image: linear-gradient(
+    to right top,
+    #9e9490,
+    #948476,
+    #85765c,
+    #6e6a44,
+    #516032
+  );
+}
+li a {
+  color: white;
+  font-weight: 100px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+li a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
   text-align: center;
 }
-nav {
-  font-size: 40px;
-  display: block;
+.wrapper2 {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
 }
-li {
-  display: inline;
+
+.flex-nav ul {
+  display: flex;
+  list-style: none;
+  border: 1px black solid;
+  margin: 0;
+  padding: 0;
 }
-ul {
-  list-style-type: none;
+.flex-nav li {
+  flex: 1;
 }
-a {
-  text-decoration: none;
+img {
+  height: 400px;
+  margin: 10px;
 }
-.active {
-  font-size: 50px;
-  color: goldenrod;
+.flex-nav {
 }
-a:hover {
-  color: goldenrod;
-}
-button:hover {
-  background-color: #00aced;
+.contact {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  margin: 50px;
 }
 input,
 textarea,
@@ -34,19 +75,16 @@ button {
 }
 input {
   height: 30px;
-  width: 200px;
+  width: 400px;
 }
 textarea {
   height: 150px;
   width: 300px;
 }
-img {
-  border-radius: 100px;
-  height: 40vh;
+button:hover {
+  background-color: #00aced;
 }
-.contact {
-  text-align: center;
-  font-size: 30px;
-  padding: 50px;
-  margin: 50px;
+button {
+  height: 30px;
+  width: 100px;
 }
