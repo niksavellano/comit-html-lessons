@@ -43,7 +43,6 @@ li a:hover {
 .wrapper2 {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 40px;
 }
 
 .flex-nav ul {
@@ -65,8 +64,6 @@ img {
 .contact {
   text-align: center;
   font-size: 30px;
-  padding: 10px;
-  margin: 50px;
 }
 input,
 textarea,
