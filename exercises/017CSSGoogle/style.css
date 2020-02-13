@@ -9,7 +9,7 @@
   flex: 1 1 auto;
 }
 #menuimg {
-  height: 30px;
+  height: 20px;
 }
 #icon {
   border-radius: 100%;
@@ -67,7 +67,6 @@ main {
 .button-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 50%;
 }
 .button-container button {
   margin-right: 5px;
@@ -86,6 +85,7 @@ footer {
   color: #333;
   border: 1px solid #ebdbdb;
   padding: 1px;
+  font-size: 10px;
 }
 footer a {
   text-decoration: none;
@@ -99,4 +99,14 @@ footer a {
 }
 footer p {
   margin-left: 10px;
+}
+#asd {
+  margin-bottom: 50%;
+}
+#lang {
+  color: blue;
+  text-decoration: none;
+}
+#lang:hover {
+  text-decoration: underline;
 }
