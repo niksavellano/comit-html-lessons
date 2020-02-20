@@ -1,4 +1,4 @@
-"user strict";
+"use strict";
 let showEvenNumber = even => {
   while (even >= 1) {
     for (let i = 0; i <= 100; i += 2) {
@@ -54,7 +54,7 @@ let showUser = user => {
   }
 };
 
-showEvenNumber(2);
+showEvenNumber(5);
 
 showfibo(10);
 
