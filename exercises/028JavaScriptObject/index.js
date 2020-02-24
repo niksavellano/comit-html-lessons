@@ -29,3 +29,4 @@ if (a == user1.username && b == user1.password) {
 
 user2.greet();
 user2.updateUser();
+user2.greet();
