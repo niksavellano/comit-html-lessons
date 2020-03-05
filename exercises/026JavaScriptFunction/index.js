@@ -8,6 +8,14 @@ let showEvenNumber = even => {
   }
 };
 
+let showOddNumber = () => {
+  for (let i = 0; i <= 100; i++) {
+    if (i % 2 !== 0) {
+      document.write(i + " is a odd number <br>");
+    }
+  }
+};
+
 let showfibo = num => {
   let a = 1;
   let b = 0;
@@ -54,8 +62,10 @@ let showUser = user => {
   }
 };
 
-showEvenNumber(5);
+showEvenNumber(1);
+
+showOddNumber();
 
 showfibo(10);
 
-showUser(2);
+showUser(1);
